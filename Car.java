@@ -2,33 +2,34 @@ package cars;
 
 public class Car {
     // Instance members
-    private String car_brand;   // brand
-    private String car_model;   // model
-    private double car_price;   // price
-    private double car_mileage; // mileage
-    private String car_owner;   // ownerName
+    private String car_brand;   
+    private String car_model;   
+    private double car_price;   
+    private double car_mileage; 
+    private String car_owner;   
 
     // Static members
-    private static int total_cars = 0;    // totalCars
-    private static String showroomName = "G. R. Motors";  // showroom name
+    private static int total_cars = 0;    
+    private static String showroomName = "G. R. Motors";  
 
-    // Constructor 1
+    // Constructor 1 "Initializing Car Details"
+    // Using Method Overloading concept-"same method name and function only difference in parameters"
     public Car(String b, String m, double p, double mil) {
-        this.car_brand = b;  // initialize brand
-        this.car_model = m;  // initialize model
-        this.car_price = p;  // initialize price
-        this.car_mileage = mil;  // initialize mileage
-        this.car_owner = "Not Assigned";  // default owner name
+        this.car_brand = b;  
+        this.car_model = m;  
+        this.car_price = p;  
+        this.car_mileage = mil;  
+        this.car_owner = "Not Assigned";  
         total_cars++;
     }
 
     // Constructor 2 (overloaded)
     public Car(String b, String m, double p, double mil, String owner) {
-        this.car_brand = b;  // initialize brand
-        this.car_model = m;  // initialize model
-        this.car_price = p;  // initialize price
-        this.car_mileage = mil;  // initialize mileage
-        this.car_owner = owner;  // initialize owner
+        this.car_brand = b;  
+        this.car_model = m;  
+        this.car_price = p;  
+        this.car_mileage = mil;  
+        this.car_owner = owner;  
         total_cars++;
     }
 
@@ -38,10 +39,10 @@ public class Car {
     }
 
     public void setOwnerName(String owner) {
-        this.car_owner = owner;  // use the passed owner parameter
+        this.car_owner = owner;  
     }
 
-    // Instance method
+    // Instance method-"Will print the Instances Details"
     public void displayDetails() {
         System.out.println("Brand: " + this.car_brand);
         System.out.println("Model: " + this.car_model);
