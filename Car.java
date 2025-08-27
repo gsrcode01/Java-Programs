@@ -12,7 +12,6 @@ public class Car {
     private static int total_cars = 0;    
     private static String showroomName = "G. R. Motors";  
 
-    // Constructor 1 "Initializing Car Details"
     // Using Method Overloading concept-"same method name and function only difference in parameters"
     public Car(String b, String m, double p, double mil) {
         this.car_brand = b;  
@@ -42,7 +41,7 @@ public class Car {
         this.car_owner = owner;  
     }
 
-    // Instance method-"Will print the Instances Details"
+    // calling Instance method for printing the Instances Details"
     public void displayDetails() {
         System.out.println("Brand: " + this.car_brand);
         System.out.println("Model: " + this.car_model);
@@ -51,7 +50,7 @@ public class Car {
         System.out.println("Owner: " + this.car_owner);
     }
 
-    // Method to update price
+    // Method for update price
     public void updatePrice(double newPrice) {
         this.car_price = newPrice;
     }
@@ -83,7 +82,7 @@ public class Car {
         System.out.println("After Updates:");
         c1.displayDetails();
 
-        // Static methods
+        // using Static methods
         Car.showShowroomName();
         Car.showTotalCars();
     }
