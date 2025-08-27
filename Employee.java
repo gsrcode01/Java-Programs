@@ -32,19 +32,9 @@ public static void main(String []args) {
 	Employee e1 =new Employee("Girdhar","NNM24IS086",10000);
 	Employee e2 =new Employee("Divith","NNM24IS079",20000);
 	//intial Details
-	//brute force method
 	//Employee 1
-	/*System.out.println(e1.name +" Initial deatils :");
-	System.out.println("Employee name is "+e1.name);
-	System.out.println("Employee ID is "+e1.id);
-	System.out.println("Employee salary is "+e1.salary);*/
 	e1.display_details();
-	
 	//Employee 2
-	/*System.out.println(e2.name +" Initial deatils :");
-	System.out.println("Employee name is "+e2.name);
-	System.out.println("Employee ID is "+e2.id);
-	System.out.println("Employee salary is "+e2.salary);*/
 	e2.display_details();
 	
 	//increasing salary
@@ -52,20 +42,8 @@ public static void main(String []args) {
 	e2.increased_salary(10);
 	//final deatails
 	//Employee 1
-		/*System.out.println(e1.name +" Initial deatils :");
-		System.out.println("Employee name is "+e1.name);
-		System.out.println("Employee ID is "+e1.id);
-		System.out.println("Employee salary is "+e1.salary);*/
-		e1.display_details();
-		//Employee
-		/*
-		System.out.println(e2.name +" Initial deatils :");
-		System.out.println("Employee name is "+e2.name);
-		System.out.println("Employee ID is "+e2.id);
-		System.out.println("Employee salary is "+e2.salary);*/
-		e2.display_details();
-		
-		
-		
-	
-}}
+	e1.display_details();
+	//Employee 2		
+	e2.display_details();	
+	}
+}
