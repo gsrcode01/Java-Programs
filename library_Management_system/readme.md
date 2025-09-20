@@ -72,15 +72,3 @@ If unit tests are included:
 - Prepare for adding features like file persistence or GUI in future enhancements.
 
 ---
-
-## Next Steps / Enhancements
-- Prevent duplicate ISBN entries.
-- Add member management and due dates.
-- Save and load books from a file for persistence.
-- Improve user input validation.
-- Implement a graphical user interface (GUI) for better experience.
-
----
-
-✅ This project is perfect for beginners to explore Java programming and library management concepts in a simple, interactive way.
-
