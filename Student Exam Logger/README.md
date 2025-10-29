@@ -76,6 +76,4 @@ Student Exam Logger/
 - Manual testing through console options  
 - Automated tests via JUnit for core classes  
 
-## 📁 Licensing
 
-Specify your licence here (e.g., MIT, Apache 2). If none chosen, mention “All rights reserved.”
